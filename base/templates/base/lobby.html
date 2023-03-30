@@ -1,5 +1,18 @@
 {% extends 'base/main.html' %}
+{% load static %}
 
 {% block content %}
-<h2>Lobby</h2>
+
+<main>
+
+    <section id="form-container">
+        <img id='logo' src="{% static 'images/rtvc_logo.png' %}" />
+        <div>
+            <h1>Welcome to RTVC - Real Time Video Chat</h1>
+            <p>A group video calling application just for you!</p>
+        </div>
+    </section>
+
+</main>
+
 {% endblock %}
