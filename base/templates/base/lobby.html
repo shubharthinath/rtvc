@@ -8,8 +8,8 @@
     <section id="form-container">
         <img id='logo' src="{% static 'images/rtvc_logo.png' %}" />
 
-        <div>
-            <h1>Welcome to RTVC - Real Time Video Chat</h1>
+        <div id="welcome-message">
+            <h1>Welcome to RTVC</h1>
             <p>A group video calling application just for you!</p>
         </div>
 
@@ -17,6 +17,11 @@
             <div class="form-field">
                 <input type="text" name="room" placeholder="Enter a room name..." style="text-transform: uppercase;" />
             </div>
+
+            <div class="form-field">
+                <input type="text" name="username" placeholder="Enter your name..." style="text-transform: uppercase;" />
+            </div>
+
             <div class="form-field">
                 <input type="submit" value="Join Stream" />
             </div>
