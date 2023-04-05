@@ -124,7 +124,7 @@ body {
 }
 
 @media screen and (max-width: 1650px) {
-    .video-container{
+    .video-container {
         flex-basis: 300px;
         min-height: 200px;
     }
